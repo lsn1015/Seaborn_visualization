@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (don't commit large or sensitive data)
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*.feather
+*.parquet
+*.h5
+*.hdf5
+
+# Model files
+*.model
+*.pkl
+*.joblib
+
+# Environment and virtual environment
+.env
+.venv
+venv/
+env/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Plot outputs (optional - include if you don't want to commit generated images)
+*.png
+*.jpg
+*.pdf
